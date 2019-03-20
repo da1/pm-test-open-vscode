@@ -1,7 +1,7 @@
 {
-	"name": "pm-test-open",
-	"displayName": "pm-test-open",
-	"description": "pm-test-open",
+	"name": "test-open",
+	"displayName": "test-open",
+	"description": "test-open",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.32.0"
@@ -17,7 +17,14 @@
 		"commands": [
 			{
 				"command": "extension.testOpen",
-				"title": "test-open"
+				"title": "test-open",
+				"description": "test open"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.testOpen",
+				"key": "ctrl-alt-t"
 			}
 		]
 	},
